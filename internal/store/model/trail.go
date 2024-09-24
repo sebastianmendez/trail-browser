@@ -14,6 +14,7 @@ const (
 	FaccessName = "access_name"
 )
 
+// all yes/no (binary) values were changed from a string to a boolean in order to allocate less memory
 type Trail struct {
 	Fid        int32  `json:"fid"`
 	Restrooms  bool   `json:"restrooms"`
