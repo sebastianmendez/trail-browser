@@ -6,6 +6,7 @@ This app uses the trails data in the following website (https://opendata-boulder
 There are two filters available:
 
 `park_spaces`: Filters results with that exact amount of parking spaces
+
 `access_name`: Filters results where the access_name field contains the string sent
 
 ## Setup
