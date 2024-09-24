@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o /app/cmd/main .
+RUN go build -o /app/cmd/main /app/cmd
 
 EXPOSE 80
 
